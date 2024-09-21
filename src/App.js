@@ -13,12 +13,12 @@ function App() {
 
   return (
     <div className="App">
-      <div button onClick={()=>{
-        let copy = title;
+      <div className='button' onClick={()=>{
+        let copy = [...title];
         copy[0] = 'title D';
         setTitle(copy);
       }}>
-
+        Button
       </div>
       <div className = "box"> 
         <h4>blog</h4> 
