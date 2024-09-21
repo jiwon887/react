@@ -9,6 +9,13 @@
   padding-left: 20px;
 }
 
+.modal{
+  margin-top: 20px;
+  padding : 20px;
+  background : 20px;
+  text-align: left;
+}
+
 .list{
   padding-left: 20px;
   text-align: left;
@@ -48,4 +55,19 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button {
+  background-color: #4CAF50; /* 버튼 배경색 */
+  border: none;
+  color: white; /* 버튼 텍스트 색상 */
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px; /* 둥근 모서리 */
+  transition: background-color 0.3s ease; /* 부드러운 호버 효과 */
 }
